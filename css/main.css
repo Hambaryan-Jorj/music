@@ -1,0 +1,1330 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background: #262626;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color: #fff;
+
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.align-atems-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
+
+h1, h2, h3, h4, h5, h6, {
+    margin: 0;
+}
+
+h6{
+   font-weight: 400;
+}
+
+li {
+   font-weight: 300;
+}
+
+strong {
+	font-weight: initial;
+}
+.container {
+    width: 87%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    z-index: 2;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.offer, .slider {
+	width: 50%;
+	position: relative;
+}
+
+.offer {
+	background: #1e1e1e;
+}
+
+.btn {
+	background: #e930a1;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	width: 185px;
+	padding: 22px 0;
+	border-radius: 100px;
+	display: block;
+}
+
+.btn:hover {
+	background: #ff009c;
+	box-shadow: 0 10px 30px rgba(233,48,161,0.4);
+	-moz-transform: scale(1.1) translate(1px, 0px);
+    -webkit-transform: scale(1.1) translate(1px, 0px);
+    -o-transform: scale(1.1) translate(1px, 0px);
+    -ms-transform: scale(1.1) translate(1px, 0px);
+     transform: scale(1.1) translate(1px, 0px);
+}
+
+.btn-round {
+	font-size: 9px;
+	border: 1px solid #30e9a1;
+	color: #30e9a1;
+	padding: 5px 16px;
+	text-transform: uppercase;
+	border-radius: 100px;
+}
+
+.btn-round:hover {
+	background: #30e9a1;
+	color: #fff;
+	border: 1px solid #30e9a1;
+	color: #000;
+}
+
+.logo {
+
+}
+
+.menu {
+  margin-left: 235px;
+}
+
+.menu__item {
+
+}
+
+.menu__item a {
+   font-size: 13px;
+   font-weight: 300;
+   margin-right: 37px;
+}
+
+.menu__item a:hover{
+	color: #22dae5;
+}
+.auth{
+    margin-left: auto;
+}
+
+.auth__profile {
+	color: #898988;
+	font-size: 8px;
+	margin-bottom: 3px;
+}
+
+.auth__info {
+    margin-left: 16px;
+}
+
+.auth__name {
+	font-size: 10px;
+	margin: 0;
+}
+
+.auth__img {
+	border: 1px solid #404040;
+	border-radius: 50%;
+	padding: 5px;
+	width: 57px;
+	height: 57px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jorj {
+	width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.auth__play {
+	display: block;
+	background: #353535;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 27px;
+    margin-left: 21px;
+}
+
+.auth__more {
+	background: transparent url('../img/arrow.png') no-repeat;
+	width: 5px;
+	height: 6px;
+	border: none;
+}
+
+.header {
+	height: 15vh;
+}
+
+.offer__body {
+	width: 610px;
+}
+
+.content {
+	height: 80vh;
+	position: relative;
+}
+
+.offer__title {
+   font-size: 58px;
+   font-weight: 900;
+}
+
+.offer__word {
+	display: block;
+	font-size: 81px;
+	position: relative;
+}
+
+.offer__word:before {
+    content:'anywhere';
+    display: block;
+    font-size: 81px;
+    color: #8e1313;
+    position: absolute;
+    z-index: 1;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+.offer__word span {
+	z-index: 2;
+	position: relative;
+}
+
+.offer__word:after {
+    content:'anywhere';
+    display: block;
+    font-size: 81px;
+    color: #38aba9;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.offer__btns {
+	margin-top: 3vh;
+}
+
+.offer__btn {
+	margin-right: 20px;
+}
+
+.offer__cta {
+	margin-top: 4vh;
+}
+
+.content:before {
+    content: '';
+    display: block;
+    background: url(../img/light.png);
+    width: 1009px;
+    height: 979px;
+    position: absolute;
+    top: -20vh;
+    right: 0;
+    max-height: 105vh;
+}
+
+.content:after {
+    content: '';
+    display: block;
+    background: url(../img/light2.png);
+    width: 1190px;
+    height: 1080px;
+    position: absolute;
+    top: -34vh;
+    right: 0;
+    z-index: 1;
+    max-height: 119vh;
+}
+
+.slider {
+	background: rgba(0,0,0,0.07);
+	position: relative;
+}
+
+.ellipse {
+	background: url(../img/ellipse.png)no-repeat center center / contain;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: -6%;
+	left: 0%;
+    transition: all 10s ease;
+}
+
+.slider:hover .ellipse {
+	transform:matrix(1.30,-0.05,-0.13,-1.00,3,0);
+	-ms-transform:matrix(1.30,-0.05,-0.13,-1.00,3,0);
+	-webkit-transform:matrix(1.30,-0.05,-0.13,-1.00,3,0);
+    transition: all 15s ease;
+}
+
+.lines-dot {
+	background: url(../img/lines-dot.png)no-repeat center center / contain;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	bottom: 9%;
+    left: -6%;
+    transition: all 3s ease;
+}
+
+.slider:hover .lines-dot {
+	-moz-transform: scale(1.2) skew(27deg, 15deg);
+	-webkit-transform: scale(1.2) skew(27deg, 15deg);
+	-o-transform: scale(1.2) skew(27deg, 15deg);
+	-ms-transform: scale(1.2) skew(27deg, 15deg);
+	transform: scale(1.2) skew(27deg, 15deg);
+    transition: all 2s ease;
+}
+
+.plus-yellow {
+	background: url(../img/plus-yellow.png)no-repeat center center / contain;
+	width: 8%;
+    height: 8%;
+    position: absolute;
+    bottom: 64%;
+    left: 21%;
+    max-height: 67px;
+    max-width: 67px;
+    transition: all 10s ease;
+}
+
+.slider:hover .plus-yellow {
+    transform:matrix(-0.79,-0.76,-0.69,0.72,0,0);
+	-ms-transform:matrix(-0.79,-0.76,-0.69,0.72,0,0);
+	-webkit-transform:matrix(-0.79,-0.76,-0.69,0.72,0,0);
+	transition: all 2s ease;
+}
+
+.rmb-man {
+	background: url(../img/rmb-man.png)no-repeat center center / contain;
+    width: 92%;
+    height: 92%;
+    position: absolute;
+    bottom: 0%;
+    left: -1%;
+    max-width: 703px;
+    max-height: 702px;
+    transition: all 3s ease;
+}
+
+.slider:hover .rmb-man {
+	-moz-transform: scale(1.03) translate(1px, 0px);
+    -webkit-transform: scale(1.03) translate(1px, 0px);
+    -o-transform: scale(1.03) translate(1px, 0px);
+    -ms-transform: scale(1.03) translate(1px, 0px);
+     transform: scale(1.03) translate(1px, 0px);
+     transition: all 2s ease;
+}
+
+.plus-dods {
+	background: url(../img/plus-dods.png)no-repeat center center / contain;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 0%;
+    right: -2.6%;
+    max-width: 289px;
+    max-height: 296px;
+    transition: all 4s ease;
+}
+
+.slider:hover .plus-dods{
+	-moz-transform: scale(1.01) translate(-6px, -6px);
+	-webkit-transform: scale(1.01) translate(-6px, -6px);
+	-o-transform: scale(1.01) translate(-6px, -6px);
+	-ms-transform: scale(1.01) translate(-6px, -6px);
+	transform: scale(1.01) translate(-6px, -6px);
+	transition: all 3s ease;
+}
+
+.triangles {
+	background: url(../img/triangles.png)no-repeat center center / contain;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 75%;
+    right: 10%;
+    max-width: 161px;
+    max-height: 166px;
+    transition: all 7.0s ease;
+}
+
+.slider:hover .triangles {
+	-moz-transform: scale(1.2) rotate(360deg);
+	-webkit-transform: scale(1.2) rotate(360deg);
+	-o-transform: scale(1.2) rotate(360deg);
+	-ms-transform: scale(1.2) rotate(360deg);
+	transform: scale(1.2) rotate(360deg); 
+    transition: all 5.0s ease;
+}
+
+.line-wive {
+	background: url(../img/line-wive.png)no-repeat center center / contain;
+    width: 26%;
+    height: 26%;
+    position: absolute;
+    bottom: 62%;
+    right: 83%;
+    max-width: 260px;
+    max-height: 233px;
+    transition: all 5s ease;
+}
+
+.slider:hover .line-wive {
+    -moz-transform: scale(1.1) rotate(5deg) translate(7px, 0px);
+	-webkit-transform: scale(1.1) rotate(5deg) translate(7px, 0px);
+	-o-transform: scale(1.1) rotate(5deg) translate(7px, 0px);
+	-ms-transform: scale(1.1) rotate(5deg) translate(7px, 0px);
+	transform: scale(1.1) rotate(5deg) translate(7px, 0px);
+	transition: all 2s ease;
+}
+
+.crutch {
+	background: #262626;
+	height: 5vh;
+}
+
+.musics__tracks{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.muzics {
+	position: relative;
+}
+
+/*DEVIL*/
+
+.musics__tracks-devil {
+	justify-content: space-around;
+}
+
+.musics__tracks-devil-info {
+	width: 300px;
+}
+
+.musics__tracks-devil-pictures {
+	background: url(../img/devil.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-devil-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-devil-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-devil-title:before {
+	content: "Hippie Sabotage – Devil Eyes";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-devil-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-devil-title:after {
+	content: "Hippie Sabotage – Devil Eyes";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+/*DEVIL*/
+/*Calvin Harris & Rag'n'Bone Man - Giant*/
+
+.musics__tracks-rag {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-rag-info {
+	width: 300px;
+}
+
+.musics__tracks-rag-pictures {
+	background: url(../img/rag.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-rag-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-rag-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-rag-title:before {
+	content: "Calvin Harris & Rag'n'Bone Man - Giant";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-rag-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-rag-title:after {
+	content: "Calvin Harris & Rag'n'Bone Man - Giant";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+
+/*Calvin Harris & Rag'n'Bone Man - Giant*/
+/*Rag'n'Bone Man*/
+
+.musics__tracks-skin {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-skin-info {
+	width: 300px;
+}
+
+.musics__tracks-skin-pictures {
+	background: url(../img/skin.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-skin-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-skin-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-skin-title:before {
+	content: "Rag'n'Bone Man - Skin";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-skin-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-skin-title:after {
+	content: "Rag'n'Bone Man - Skin";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+/*Rag'n'Bone Man*/
+/*Jonathan Roy - Keeping Me Alive*/
+
+.musics__tracks-roy {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-roy-info {
+	width: 300px;
+}
+
+.musics__tracks-roy-pictures {
+	background: url(../img/roy.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-roy-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-roy-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-roy-title:before {
+	content: "Jonathan Roy - Keeping Me Alive";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-roy-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-roy-title:after {
+	content: "Jonathan Roy - Keeping Me Alive";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+/*Jonathan Roy - Keeping Me Alive*/
+/* Timbaland - Apologize ft. OneRepublic */
+
+.musics__tracks-timbaland {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-timbaland-info {
+	width: 300px;
+}
+
+.musics__tracks-timbaland-pictures {
+	background: url(../img/timbaland.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-timbaland-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-timbaland-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-timbaland-title:before {
+	content: "Timbaland - Apologize ft. OneRepublic";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-timbaland-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-timbaland-title:after {
+	content: "Timbaland - Apologize ft. OneRepublic";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+/* Timbaland - Apologize ft. OneRepublic */
+/*Passenger - Let Her Go*/
+
+.musics__tracks-passenger {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-passenger-info {
+	width: 300px;
+}
+
+.musics__tracks-passenger-pictures {
+	background: url(../img/Let.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-passenger-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-passenger-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-passenger-title:before {
+	content: "Passenger - Let Her Go";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-passenger-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-passenger-title:after {
+	content: "Passenger - Let Her Go";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+
+/*Passenger - Let Her Go*/
+/*KALEO - Way Down We Go*/
+
+
+.musics__tracks-kaleo {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-kaleo-info {
+	width: 300px;
+}
+
+.musics__tracks-kaleo-pictures {
+	background: url(../img/kaleo.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-kaleo-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-kaleo-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-kaleo-title:before {
+	content: "KALEO - Way Down We Go";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-kaleo-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-kaleo-title:after {
+	content: "KALEO - Way Down We Go";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+
+/*KALEO - Way Down We Go*/
+/*Damian "Jr. Gong" Marley - Medication ft. Stephen Marley*/
+
+.musics__tracks-medication {
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.musics__tracks-medication-info {
+	width: 300px;
+}
+
+.musics__tracks-medication-pictures {
+	background: url(../img/madication.jpg) no-repeat center center / cover;
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+
+.musics__tracks-medication-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
+}
+
+.musics__tracks-medication-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
+	width: 300px;
+}
+
+.musics__tracks-medication-title:before {
+	content: "Damian Jr. Gong Marley - Medication ft. Stephen Marley";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-medication-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-medication-title:after {
+	content: "Damian Jr. Gong Marley - Medication ft. Stephen Marley";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+/*Damian "Jr. Gong" Marley - Medication ft. Stephen Marley*/
+
+.footer	{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.44);
+}
+
+.nav__footer {
+	
+}
+
+.nav__footer-instagram{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__footer-photo-profile{
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav__footer-instagram-jorj {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 8px 0 8px;
+}
+
+
+.nav__footer-photo-instagram {
+	width: 16px;
+	height: 16px;
+}
+
+.nav__footer-instagram-circle {
+    border: 1px solid #404040;
+    border-radius: 50%;
+    padding: 1px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+
+.nav__footer-instagram:hover .nav__footer-instagram-circle {
+	width: 40px;
+    height: 40px;
+    transition: 1s ease;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1465px) {
+	.offer__body {
+	    margin-left: 15px;
+	}
+	.plus-dods {
+	    bottom: 1.5%;
+	    right: 0;
+	}
+}
+
+@media screen and (max-width: 1271px) {
+    .offer__word {
+        font-size: 70px;
+    }
+    .offer__word:before {
+        font-size: 70px;	
+    }
+    .offer__word:after {
+        font-size: 70px;	
+    }
+    .offer__title {
+        font-size: 47px;
+    }	
+    .plus-dods {
+    	bottom: 0.5%;
+        right: -1.6%;
+    }	
+}
+@media screen and (max-width: 1171px){
+	.rmb-man {
+	    bottom: -1%;
+	}
+	.plus-dods {
+	    right: -0.6%;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+    .offer__title {
+        margin: 1.9em 0;
+    }
+    .offer__btn {
+        display: none;
+    }
+    .offer__cta {
+        margin-left: 125px;
+    }
+    .rmb-man {
+	    bottom: -3%;
+	}
+	.plus-dods {
+	    right: 0%;
+	}
+}
+
+@media screen and (max-width: 1100px){
+    .offer__word {
+        font-size: 60px;
+    }
+    .offer__word:before {
+        font-size: 60px;	
+    }
+    .offer__word:after {
+        font-size: 60px;	
+    }
+    .offer__title {
+        font-size: 37px;
+    }
+    .rmb-man {
+	    bottom: -4%;
+	}
+	.plus-dods {
+	    bottom: -3px;
+	    right: -0.5%;
+	}
+}
+
+@media screen and (max-width: 1068px){
+    .container {
+    	flex-direction: column;
+    }
+    .slider {
+        height: 100%;
+    }
+    .offer, .slider {
+        width: 100%;
+    }
+    .offer, .slider {
+        padding-bottom: 20px;
+    }
+    .offer__cta {
+        margin-left: 213px;
+    }
+    .rmb-man {
+        bottom: 0%;
+    }
+    .offer__body {
+        margin-left: 0px; 
+    }
+    .menu__item:nth-child(2) a {
+    	display: none;
+    }
+    .row {
+    	flex-direction: row !important;
+    }
+    .content {
+        overflow: hidden;
+    }
+    .plus-dods {
+	    bottom: 0;
+	    right: -12.5%;
+	}
+}
+
+@media screen and (max-width: 955px) {
+    .menu__item:last-child a {
+    	display: none;
+    }
+    .musics__tracks-devil, 
+    .musics__tracks-rag, 
+    .musics__tracks-skin, 
+    .musics__tracks-roy,
+    .musics__tracks-timbaland, 
+    .musics__tracks-passenger, 
+    .musics__tracks-kaleo, 
+    .musics__tracks-medication{
+	    flex-direction: column-reverse;
+    }
+    .muzics audio {
+	    margin-top: 36px;
+	    margin-bottom: 92px;
+    }
+    .musics__tracks-devil-pictures, 
+    .musics__tracks-rag-pictures, 
+    .musics__tracks-skin-pictures, 
+    .musics__tracks-roy-pictures,
+    .musics__tracks-timbaland-pictures, 
+    .musics__tracks-passenger-pictures, 
+    .musics__tracks-kaleo-pictures, 
+    .musics__tracks-medication-pictures {
+    	margin-bottom: 20px;
+    	width: 400px;
+        height: 400px;
+    }
+    .musics__tracks-devil-pictures:hover, 
+    .musics__tracks-rag-pictures:hover, 
+    .musics__tracks-skin-pictures:hover, 
+    .musics__tracks-roy-pictures:hover,
+    .musics__tracks-timbaland-pictures:hover, 
+    .musics__tracks-passenger-pictures:hover, 
+    .musics__tracks-kaleo-pictures:hover, 
+    .musics__tracks-medication-pictures:hover {
+    	width: 500px;
+        height: 500px;
+    }
+    .plus-dods {
+	    right: -14%;
+	}
+	audio{
+        width: 67%;
+	}
+}
+
+@media screen and (max-width: 763px){
+	.menu__item a {
+	    margin-right: 20px;
+    }
+    .menu {
+    	margin: 0 auto;
+    }
+    .content {
+        height: 96vh;
+    }
+    .offer__body {
+	    display: none;
+    }
+    .offer {
+	    padding-bottom: 0px; 
+    }
+    .slider {
+       background: none;
+    }
+    .plus-dods {
+	    bottom: 12%;
+        right: -10%;
+    }
+    .lines-dot {
+	    bottom: 13%;
+    }
+    .rmb-man {
+	    bottom: 5.1%;
+	    width: 500px;
+	    left: 0%;
+    }
+    .ellipse {
+	    width: 83%;
+	    height: 83%;
+	    bottom: 12%;
+    }
+}
+@media screen and (max-width: 605px){
+	.plus-dods {
+	    bottom: 9.1%;
+	}
+    .menu__item a {
+    	display: none;
+    }
+    .triangles {
+	    width: 15%;
+	    height: 15%;
+	    right: 0%;
+    }.plus-dods {
+	    bottom: 9%;
+	}
+	.musics__tracks-devil-pictures, 
+    .musics__tracks-rag-pictures, 
+    .musics__tracks-skin-pictures, 
+    .musics__tracks-roy-pictures,
+    .musics__tracks-timbaland-pictures, 
+    .musics__tracks-passenger-pictures, 
+    .musics__tracks-kaleo-pictures, 
+    .musics__tracks-medication-pictures {
+    	margin-bottom: 20px;
+    	width: 300px;
+        height: 300px;
+    }
+    .musics__tracks-devil-pictures:hover, 
+    .musics__tracks-rag-pictures:hover, 
+    .musics__tracks-skin-pictures:hover, 
+    .musics__tracks-roy-pictures:hover,
+    .musics__tracks-timbaland-pictures:hover, 
+    .musics__tracks-passenger-pictures:hover, 
+    .musics__tracks-kaleo-pictures:hover, 
+    .musics__tracks-medication-pictures:hover {
+    	width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 537px){
+	.plus-dods {
+	    bottom: 7.5%;
+	}
+}	
+@media screen and (max-width: 432px){
+	.rmb-man {
+	    bottom: 2.3%;
+	    width: 464px;
+	    left: -6%;
+    }
+    .plus-dods {
+        bottom: 5.1%;
+    }
+    .musics__tracks-devil-pictures, 
+    .musics__tracks-rag-pictures, 
+    .musics__tracks-skin-pictures, 
+    .musics__tracks-roy-pictures,
+    .musics__tracks-timbaland-pictures, 
+    .musics__tracks-passenger-pictures, 
+    .musics__tracks-kaleo-pictures, 
+    .musics__tracks-medication-pictures {
+    	margin-bottom: 20px;
+    	width: 250px;
+        height: 250px;
+    }
+    .musics__tracks-devil-pictures:hover, 
+    .musics__tracks-rag-pictures:hover, 
+    .musics__tracks-skin-pictures:hover, 
+    .musics__tracks-roy-pictures:hover,
+    .musics__tracks-timbaland-pictures:hover, 
+    .musics__tracks-passenger-pictures:hover, 
+    .musics__tracks-kaleo-pictures:hover, 
+    .musics__tracks-medication-pictures:hover {
+    	width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 359px){
+    .auth__img {
+    	width: 45px;
+        height: 45px;
+    }
+    .plus-dods {
+	    bottom: 3.1%;
+	}
+}
+
+@media screen and (max-width: 335px){
+    .jorj {
+	    width: 30px;
+	    height: 30px;
+    }
+    .auth__img {
+	    width: 34px;
+	    height: 34px;
+    }
+    .rmb-man {
+	    bottom: -5.8%;
+	    width: 364px;
+	    left: -7%;
+    }
+    .plus-dods {
+        bottom: 2%;
+    }
+}
+
+/*media queries*/
+
