@@ -431,538 +431,194 @@ strong {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-
+/*musics container properties*/
 .muzics {
 	position: relative;
 }
 
-/*DEVIL*/
-
-.musics__tracks-devil {
+.musics__tracks-item {
 	justify-content: space-around;
+	margin-top: 40px;
+}
+.musics__tracks-info {
+	width: 300px;
+}
+.musics__tracks-pictures {
+	width: 200px;
+	height: 200px;
+	border: 3px solid #22dae5;
+	transition: 3s ease;
+}
+.musics__tracks-pictures:hover {
+	transition: 3s ease;
+	width: 300px;
+	height: 300px;
+	border: 6px solid #22dae5;
 }
 
-.musics__tracks-devil-info {
+.musics__tracks-title {
+	display: block;
+	font-size: 25px;
+	position: relative;
+	font-weight: 900;
 	width: 300px;
+}
+
+.musics__tracks-title:before {
+	content: " ";
+	display: block;
+	font-size: 25px;
+	color: #8e1313;
+	position: absolute;
+	margin-left: -2px;
+    margin-top: -2px;
+    z-index: 1;
+    width: 300px;
+}
+
+.musics__tracks-title span {
+	z-index: 2;
+	position: relative;
+}
+
+.musics__tracks-title:after {
+	content: " ";
+	display: block;
+	font-size: 25px;
+	color: #38aba9;
+	position: absolute;
+	z-index: 1;
+	margin-left: 2px;
+    margin-top: 2px;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+/*musics container properties*/
+/*DEVIL*/
+
+.musics__tracks-item:first-child {
+	margin-top: 0;
 }
 
 .musics__tracks-devil-pictures {
 	background: url(../img/devil.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-devil-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-devil-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-devil-title:before {
 	content: "Hippie Sabotage – Devil Eyes";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-devil-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-devil-title:after {
 	content: "Hippie Sabotage – Devil Eyes";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 /*DEVIL*/
 /*Calvin Harris & Rag'n'Bone Man - Giant*/
 
-.musics__tracks-rag {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-rag-info {
-	width: 300px;
-}
-
 .musics__tracks-rag-pictures {
 	background: url(../img/rag.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-rag-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-rag-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-rag-title:before {
 	content: "Calvin Harris & Rag'n'Bone Man - Giant";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-rag-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-rag-title:after {
 	content: "Calvin Harris & Rag'n'Bone Man - Giant";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 
 /*Calvin Harris & Rag'n'Bone Man - Giant*/
 /*Rag'n'Bone Man*/
 
-.musics__tracks-skin {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-skin-info {
-	width: 300px;
-}
-
 .musics__tracks-skin-pictures {
 	background: url(../img/skin.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-skin-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-skin-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-skin-title:before {
 	content: "Rag'n'Bone Man - Skin";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-skin-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-skin-title:after {
 	content: "Rag'n'Bone Man - Skin";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 /*Rag'n'Bone Man*/
 /*Jonathan Roy - Keeping Me Alive*/
 
-.musics__tracks-roy {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-roy-info {
-	width: 300px;
-}
-
 .musics__tracks-roy-pictures {
 	background: url(../img/roy.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-roy-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-roy-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-roy-title:before {
 	content: "Jonathan Roy - Keeping Me Alive";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-roy-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-roy-title:after {
 	content: "Jonathan Roy - Keeping Me Alive";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 /*Jonathan Roy - Keeping Me Alive*/
 /* Timbaland - Apologize ft. OneRepublic */
 
-.musics__tracks-timbaland {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-timbaland-info {
-	width: 300px;
-}
-
 .musics__tracks-timbaland-pictures {
 	background: url(../img/timbaland.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-timbaland-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-timbaland-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-timbaland-title:before {
 	content: "Timbaland - Apologize ft. OneRepublic";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-timbaland-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-timbaland-title:after {
 	content: "Timbaland - Apologize ft. OneRepublic";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 /* Timbaland - Apologize ft. OneRepublic */
 /*Passenger - Let Her Go*/
 
-.musics__tracks-passenger {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-passenger-info {
-	width: 300px;
-}
-
 .musics__tracks-passenger-pictures {
 	background: url(../img/Let.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-passenger-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-passenger-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-passenger-title:before {
 	content: "Passenger - Let Her Go";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-passenger-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-passenger-title:after {
 	content: "Passenger - Let Her Go";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 
 /*Passenger - Let Her Go*/
 /*KALEO - Way Down We Go*/
 
-
-.musics__tracks-kaleo {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-kaleo-info {
-	width: 300px;
-}
-
 .musics__tracks-kaleo-pictures {
 	background: url(../img/kaleo.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-kaleo-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-kaleo-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-kaleo-title:before {
 	content: "KALEO - Way Down We Go";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
 }
 
-.musics__tracks-kaleo-title span {
-	z-index: 2;
-	position: relative;
-}
 
 .musics__tracks-kaleo-title:after {
 	content: "KALEO - Way Down We Go";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 
 /*KALEO - Way Down We Go*/
 /*Damian "Jr. Gong" Marley - Medication ft. Stephen Marley*/
 
-.musics__tracks-medication {
-	justify-content: space-around;
-	margin-top: 40px;
-}
-
-.musics__tracks-medication-info {
-	width: 300px;
-}
-
 .musics__tracks-medication-pictures {
 	background: url(../img/madication.jpg) no-repeat center center / cover;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #22dae5;
-	transition: 3s ease;
-}
-
-.musics__tracks-medication-pictures:hover {
-	transition: 3s ease;
-	width: 300px;
-	height: 300px;
-	border: 6px solid #22dae5;
-}
-
-.musics__tracks-medication-title {
-	display: block;
-	font-size: 25px;
-	position: relative;
-	font-weight: 900;
-	width: 300px;
 }
 
 .musics__tracks-medication-title:before {
 	content: "Damian Jr. Gong Marley - Medication ft. Stephen Marley";
-	display: block;
-	font-size: 25px;
-	color: #8e1313;
-	position: absolute;
-	margin-left: -2px;
-    margin-top: -2px;
-    z-index: 1;
-    width: 300px;
-}
-
-.musics__tracks-medication-title span {
-	z-index: 2;
-	position: relative;
 }
 
 .musics__tracks-medication-title:after {
 	content: "Damian Jr. Gong Marley - Medication ft. Stephen Marley";
-	display: block;
-	font-size: 25px;
-	color: #38aba9;
-	position: absolute;
-	z-index: 1;
-	margin-left: 2px;
-    margin-top: 2px;
-    left: 0;
-    top: 0;
-    width: 300px;
 }
 
 /*Damian "Jr. Gong" Marley - Medication ft. Stephen Marley*/
@@ -1139,40 +795,19 @@ strong {
     .menu__item:last-child a {
     	display: none;
     }
-    .musics__tracks-devil, 
-    .musics__tracks-rag, 
-    .musics__tracks-skin, 
-    .musics__tracks-roy,
-    .musics__tracks-timbaland, 
-    .musics__tracks-passenger, 
-    .musics__tracks-kaleo, 
-    .musics__tracks-medication{
+    .musics__tracks-item{
 	    flex-direction: column-reverse;
     }
     .muzics audio {
 	    margin-top: 36px;
 	    margin-bottom: 92px;
     }
-    .musics__tracks-devil-pictures, 
-    .musics__tracks-rag-pictures, 
-    .musics__tracks-skin-pictures, 
-    .musics__tracks-roy-pictures,
-    .musics__tracks-timbaland-pictures, 
-    .musics__tracks-passenger-pictures, 
-    .musics__tracks-kaleo-pictures, 
-    .musics__tracks-medication-pictures {
+    .musics__tracks-pictures {
     	margin-bottom: 20px;
     	width: 400px;
         height: 400px;
     }
-    .musics__tracks-devil-pictures:hover, 
-    .musics__tracks-rag-pictures:hover, 
-    .musics__tracks-skin-pictures:hover, 
-    .musics__tracks-roy-pictures:hover,
-    .musics__tracks-timbaland-pictures:hover, 
-    .musics__tracks-passenger-pictures:hover, 
-    .musics__tracks-kaleo-pictures:hover, 
-    .musics__tracks-medication-pictures:hover {
+    .musics__tracks-pictures:hover {
     	width: 500px;
         height: 500px;
     }
@@ -1235,26 +870,12 @@ strong {
     }.plus-dods {
 	    bottom: 9%;
 	}
-	.musics__tracks-devil-pictures, 
-    .musics__tracks-rag-pictures, 
-    .musics__tracks-skin-pictures, 
-    .musics__tracks-roy-pictures,
-    .musics__tracks-timbaland-pictures, 
-    .musics__tracks-passenger-pictures, 
-    .musics__tracks-kaleo-pictures, 
-    .musics__tracks-medication-pictures {
+	.musics__tracks-pictures {
     	margin-bottom: 20px;
     	width: 300px;
         height: 300px;
     }
-    .musics__tracks-devil-pictures:hover, 
-    .musics__tracks-rag-pictures:hover, 
-    .musics__tracks-skin-pictures:hover, 
-    .musics__tracks-roy-pictures:hover,
-    .musics__tracks-timbaland-pictures:hover, 
-    .musics__tracks-passenger-pictures:hover, 
-    .musics__tracks-kaleo-pictures:hover, 
-    .musics__tracks-medication-pictures:hover {
+    .musics__tracks-pictures:hover {
     	width: 400px;
         height: 400px;
     }
@@ -1273,29 +894,18 @@ strong {
     .plus-dods {
         bottom: 5.1%;
     }
-    .musics__tracks-devil-pictures, 
-    .musics__tracks-rag-pictures, 
-    .musics__tracks-skin-pictures, 
-    .musics__tracks-roy-pictures,
-    .musics__tracks-timbaland-pictures, 
-    .musics__tracks-passenger-pictures, 
-    .musics__tracks-kaleo-pictures, 
-    .musics__tracks-medication-pictures {
+    .musics__tracks-pictures {
     	margin-bottom: 20px;
     	width: 250px;
         height: 250px;
     }
-    .musics__tracks-devil-pictures:hover, 
-    .musics__tracks-rag-pictures:hover, 
-    .musics__tracks-skin-pictures:hover, 
-    .musics__tracks-roy-pictures:hover,
-    .musics__tracks-timbaland-pictures:hover, 
-    .musics__tracks-passenger-pictures:hover, 
-    .musics__tracks-kaleo-pictures:hover, 
-    .musics__tracks-medication-pictures:hover {
+    .musics__tracks-pictures:hover {
     	width: 300px;
         height: 300px;
     }
+    audio{
+        width: 90%;
+	}
 }
 @media screen and (max-width: 359px){
     .auth__img {
